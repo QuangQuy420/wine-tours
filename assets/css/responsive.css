@@ -1,0 +1,132 @@
+/* Mobile + Tablet */
+@media (max-width : 63.9375em) {
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+    .header__navbar {
+        height: 69px;
+        background-color: var(--primary-color);
+    }
+    .header__navbar-social {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .header__navbar-social-info {
+        margin: 0;
+        align-items: center;
+    }
+    .header__navbar-social-menu-mobile,
+    .header__navbar-social-logo-mobile {
+        display: flex;
+    }
+    .setsail {
+        margin: 50px 0 ;
+    }
+    .video-intro {
+        width: 100%;
+    }
+    .footer .col,
+    .best-tour .col {
+        margin-bottom: 20px;
+    }
+    .popular,
+    .our-tour,
+    .setsail__photo {
+        display: block;
+    }
+    .popular-tour,
+    .our-tour-content {
+        margin: 0;
+        text-align: center;
+    }
+    .statistic-container {
+        padding: 60px 0;
+    }
+    .header__navbar-social-menu-mobile:hover {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .header__navbar-social-menu-mobile:hover .header__navbar-social-menu-list {
+        display: flex;
+    }
+    .setsail__lettering-item-list-drop {
+        display: none;
+        margin: 0;
+        padding-left: 12px;
+    }
+    .setsail__lettering-item-list-drop-item {
+        border-bottom: 1px solid rgb(221, 221, 221);
+    }
+    .setsail__lettering-item-list-drop-item:hover {
+        color: var(--primary-color);
+        transition: all 0.2s linear;
+    }
+}
+
+/* Tablet */
+@media (min-width : 46.25em) and (max-width : 63.9375em) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .setsail__photo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .setsail__photo-left {
+        width: calc(var(--height-img-background-left) / 1.7);
+    }
+    .setsail__photo-right {
+        width: calc(var(--height-img-background-right) / 1.7);
+    }
+    .our-tour-content,
+    .popular-tour-img {
+        width: 644px;
+    }
+    .popular-img {
+        text-align: center;
+    }
+    .our-tour-item {
+        width: 310px;
+    }
+}
+
+/* Mobile */
+@media (max-width : 46.1875em) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .our-tour-content,
+    .our-tour-img-img,
+    .setsail__photo-left,
+    .setsail__photo-right {
+        width: 300px;
+    }
+    .popular-img img,
+    .popular-tour-img,
+    .setsail__photo {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .statistic,
+    .best-tour,
+    .popular-tour {
+        padding: 0 12px;
+    }
+    .best-tour-header {
+        padding: 60px 12px 0;
+    }
+    .best-tour-header p {
+        font-size: 5rem;
+    }
+    .footer__container {
+        text-align: center;
+    }
+    .our-tour-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
